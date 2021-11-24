@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(50, 186, 202);
+  text-align: center;
+  image-rendering: pixelated;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.klass {
+  background-color: rgba(200, 200, 200, 0.5);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.klassområde {
+  margin-left: 15px;
+  width: 30%;
+}
