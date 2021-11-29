@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
 body {
   background-color: rgb(50, 186, 202);
   text-align: center;
   image-rendering: pixelated;
+  font-family: 'Dosis', sans-serif;
 }
 
 ul {
@@ -9,14 +12,77 @@ ul {
   padding: 0;
 }
 
+h2 {
+  font-size: 32px;
+}
+
+h6 {
+  margin: 0;
+  margin-left: 1px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
 .klass {
-  background-color: rgba(200, 200, 200, 0.5);
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.3);
   padding-top: 5px;
   padding-bottom: 5px;
-  text-align: left;
+  margin-left: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  width: 90%;
 }
 
 .klassområde {
-  margin-left: 15px;
-  width: 30%;
+  text-align: left;
+  display: inline-block;
+  width: 95%;
+}
+
+.klasstitel {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.klassprov {
+  background-color: rgba(200, 0, 0, 0.5);
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.progresscontainer {
+  width: 90%;
+  height: 80px;
+  background-color: rgba(100, 100, 100, 0.4);
+  border: 3px solid black;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.progresslevel {
+  height: 100%;
+  text-align: center;
+  background-color: limegreen;
+  width: 0px;
+}
+
+.progresslevel img {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+#scoutklasser {
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.3);
+  padding-bottom: 20px;
 }
